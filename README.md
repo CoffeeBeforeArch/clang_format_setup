@@ -47,8 +47,11 @@ Inside of settings, you next need to go to Extensions -> Clang-Format. This is w
 
 ![alt text](https://github.com/CoffeeBeforeArch/clang_format_setup/blob/master/vscode_images/vscode_extension_settings.png)
 
-From there, you can specify the path to the executable, the fallback style, etc. There will be an explicit option to set a style. If you set it to "file", then it will look for your .clang-format style file. If it can not find it, it will use what you set for your fallback style.
+From there, you can specify the path to the executable, the fallback style, etc. There will also be an explicit option to set a style. If you set it to "file", then it will look for your .clang-format style file. If it can not find it, it will use what you set for your fallback style.
 
 ![alt text](https://github.com/CoffeeBeforeArch/clang_format_setup/blob/master/vscode_images/vscode_style.png)
 
 # Eclipse
+From the Eclipse Marketplace, (Help -> Eclipse Marketplace...), search for, and install CppStyle.
+
+![alt text](https://github.com/CoffeeBeforeArch/clang_format_setup/blob/master/eclipse_images/eclipse_cppstyle.png)
