@@ -4,7 +4,7 @@
 # Pre-requisites
 This tutorial assumes 2 things:
 
-1. You have already installed/built clang-format
+1. You have already installed/built clang-format (we are using version 6.0)
 2. You have already installed VIM, Eclipse, or VS-Code
 
 # VIM
@@ -51,7 +51,31 @@ From there, you can specify the path to the executable, the fallback style, etc.
 
 ![alt text](https://github.com/CoffeeBeforeArch/clang_format_setup/blob/master/vscode_images/vscode_style.png)
 
+To actually perform formatting, you use the key-combinations ctrl + shift + i.
+
 # Eclipse
-From the Eclipse Marketplace, (Help -> Eclipse Marketplace...), search for, and install CppStyle.
+From the Eclipse Marketplace, (Help -> Eclipse Marketplace...), search for, and install CppStyle. You can find the rest the rest of the instructions [here](https://github.com/wangzw/CppStyle).
 
 ![alt text](https://github.com/CoffeeBeforeArch/clang_format_setup/blob/master/eclipse_images/eclipse_cppstyle.png)
+
+You can next go into your project properties, and navigate to CppStyle.
+
+![alt text](https://github.com/wangzw/CppStyle)
+
+From there you can set the path to the clang-format executable that you wish to use.
+
+![alt text](https://github.com/CoffeeBeforeArch/clang_format_setup/blob/master/eclipse_images/eclipse_preferences.png)
+
+To set clang-format as your default code formatter, go to Preferences -> C/C++ -> Code Style -> Formatter, and then change the Code Formatter to CppStyle (clang-format).
+
+![alt text](https://github.com/CoffeeBeforeArch/clang_format_setup/blob/master/eclipse_images/eclipse_formatter.png)
+
+This tool will search the entire source file path for a .clang-format style file. For GPGPU-Sim, one is located in the root directory. More information about this can be found at the GitHub page linked in at the top of this section.
+
+From here, you can use ctrl + shift + f to reformat selected code. If you have not selected any code, you may be given this prompt.
+
+![alt text](https://github.com/CoffeeBeforeArch/clang_format_setup/blob/master/eclipse_images/eclipse_run_settings.png)
+
+Now it looks pretty...
+
+![alt text](https://github.com/CoffeeBeforeArch/clang_format_setup/blob/master/eclipse_images/eclipse_post_format.png)
