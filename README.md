@@ -60,7 +60,7 @@ From the Eclipse Marketplace, (Help -> Eclipse Marketplace...), search for, and 
 
 You can next go into your project properties, and navigate to CppStyle.
 
-![alt text](https://github.com/wangzw/CppStyle)
+![alt text](https://github.com/CoffeeBeforeArch/clang_format_setup/blob/master/eclipse_images/eclipse_properties.png)
 
 From there you can set the path to the clang-format executable that you wish to use.
 
