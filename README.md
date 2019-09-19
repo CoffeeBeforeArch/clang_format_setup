@@ -24,7 +24,7 @@ Now I can call "ClangFormat" inside VIM like so.
 
 ![alt text](https://github.com/CoffeeBeforeArch/clang_format_setup/blob/master/vim_images/vim_formatted.png)
 
-Options for the plugin can be set inside of your .vimrc file. Here is an example of mine (these options are all described in greated detail in the README for the plugin).
+Options for the plugin can be set inside of your .vimrc file. Here is an example of mine (these options are all described in greater detail in the README for the plugin) If you have multiple clang-format versions installed, there is a variable you can set to specifically which one you would like to work with (different versions format code differently).
 
 ![alt text](https://github.com/CoffeeBeforeArch/clang_format_setup/blob/master/vim_images/vim_vimrc.png)
 
@@ -75,7 +75,3 @@ This tool will search the entire source file path for a .clang-format style file
 From here, you can use ctrl + shift + f to reformat selected code. If you have not selected any code, you may be given this prompt.
 
 ![alt text](https://github.com/CoffeeBeforeArch/clang_format_setup/blob/master/eclipse_images/eclipse_run_settings.png)
-
-Now it looks pretty...
-
-![alt text](https://github.com/CoffeeBeforeArch/clang_format_setup/blob/master/eclipse_images/eclipse_post_format.png)
