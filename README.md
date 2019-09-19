@@ -24,7 +24,7 @@ Now I can call "ClangFormat" inside VIM like so.
 
 ![alt text](https://github.com/CoffeeBeforeArch/clang_format_setup/blob/master/vim_images/vim_formatted.png)
 
-Options for the plugin can be set inside of your .vimrc file. Here is an example of mine (these options are all described in greater detail in the README for the plugin) If you have multiple clang-format versions installed, there is a variable you can set to specifically which one you would like to work with (different versions format code differently).
+Options for the plugin can be set inside of your .vimrc file. Here is an example of mine (these options are all described in greater detail in the README for the plugin) If you have multiple clang-format versions installed, there is a variable (g:clang_format#command) you can set to specify which one you would like to work with (different versions format code differently).
 
 ![alt text](https://github.com/CoffeeBeforeArch/clang_format_setup/blob/master/vim_images/vim_vimrc.png)
 
