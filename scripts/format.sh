@@ -1,4 +1,5 @@
 # This bash script formats GPGPU-Sim using clang-format-6.0
+# Requires you to pass the path to your gpgpu-sim directory as an input
 ROOT_DIR=$1
 clang-format-6.0 -style=Google -i ${ROOT_DIR}/libcuda/*.h
 clang-format-6.0 -style=Google -i ${ROOT_DIR}/libcuda/*.cc
